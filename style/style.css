@@ -1,0 +1,51 @@
+#container{
+  text-align: center;
+}
+
+.grid{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*border: solid 10px #D6CBCB;*/
+  display: inline-block;
+  /*-webkit-transform: perspective(100px) rotateX(20deg);*/
+  /*width: 100%;*/
+  /*margin: 0 auto;*/
+  /*border-style: inset;*/
+}
+
+.cell{
+  background-color: #ADAAAA;
+  border: solid 2px #C7C4C4;
+  border-style: outset;
+  float: left;
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  display: block;
+  font-size: 9px;
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 6px;
+}
+
+.mine{
+  background-image: url(mine.png);
+  background-size: cover;
+}
+
+.emptyCell {
+  background-color: lightgrey;
+  border-style: inset;
+}
+
+.gameover {
+  background-color: red;
+}
+
+.cellEndRow {
+  clear: left;
+}
+
+.flag {
+  background-image: url(flag.png);
+  background-size: cover;
+}
