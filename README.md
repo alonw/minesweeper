@@ -5,6 +5,10 @@ My aim with this project is to create versions of the Minesweeper along (my) lea
 2. jQuery
 3. React.js
 4. React + Redux
+
+1. First ordered list item
+2. Another item
+
 </p>
 
 <p>
